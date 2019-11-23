@@ -8,6 +8,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @SpringBootApplication
 public class SpringreactApplication {
 
+
     @Bean
     BCryptPasswordEncoder bCryptPasswordEncoder() {
         return new BCryptPasswordEncoder();
@@ -15,7 +16,7 @@ public class SpringreactApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringreactApplication.class, args);
-
+        System.out.println("test1 branch");
 
     }
 
